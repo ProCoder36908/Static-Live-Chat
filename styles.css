@@ -31,7 +31,8 @@ body {
 }
 
 #username-input,
-#message-input {
+#message-input,
+#modal-username-input {
     flex: 1;
     padding: 8px;
     margin-right: 10px;
@@ -44,4 +45,5 @@ button {
     border: none;
     border-radius: 3px;
     cursor: pointer;
+    flex-shrink: 0; /* Ensure button doesn't shrink */
 }
